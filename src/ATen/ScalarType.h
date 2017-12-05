@@ -84,7 +84,8 @@ static inline bool isFloatingType(ScalarType t) {
 }
 
 struct Tensor;
-typedef ArrayRef<int64_t> IntList;
+typedef int64_t Int;
+typedef ArrayRef<Int> IntList;
 typedef ArrayRef<Tensor> TensorList;
 
 } // namespace at
